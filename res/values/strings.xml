@@ -6,5 +6,42 @@
     <string name="title_section1">Section 1</string>
     <string name="title_section2">Section 2</string>
     <string name="title_section3">Section 3</string>
+    <string name="label_warmUp">Warm Up</string>
+    <string name="label_squat">Squat</string>
+    <string name="label_chest">Warm Up</string>
+    <string name="label_back">Back</string>
+    <string name="label_tricep">Triceps</string>
+    <string name="label_bicep">Biceps</string>
+    <string name="label_lunge">Lunges</string>
+    <string name="label_shoulder">Shoulder</string>
+    <string name="label_ab">Abs</string>
+    <string name="label_coolDown">Cool Down</string>
 
+    
+    <string-array name="weights_array_kg">
+        <item>1.25</item>
+        <item>2.5</item>
+        <item>3.75</item>
+        <item>5.00</item>
+        <item>6.25</item>
+        <item>7.50</item>
+        <item>8.75</item>
+        <item>10.00</item>
+        <item>11.25</item>
+        <item>12.50</item>
+        <item>13.75</item>
+        <item>15.00</item>
+        <item>16.25</item>
+        <item>17.50</item>
+        <item>18.75</item>
+        <item>20.00</item>
+        <item>21.25</item>
+        <item>22.50</item>
+        <item>23.75</item>
+        <item>25.00</item>
+        <item>26.25</item>
+        <item>27.50</item>
+        <item>28.75</item>
+        <item>30.00</item>
+    </string-array>
 </resources>

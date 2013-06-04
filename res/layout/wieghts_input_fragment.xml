@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/label_warmUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/label_squat"
+        android:text="@string/label_warmUp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/label_squat"
+        android:layout_below="@+id/label_squat"
+        android:text="@string/label_back"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_triceps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/label_back"
+        android:layout_below="@+id/label_back"
+        android:text="@string/label_tricep"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_biceps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/label_triceps"
+        android:layout_below="@+id/label_triceps"
+        android:text="@string/label_bicep"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_shoulders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/label_biceps"
+        android:layout_below="@+id/label"
+        android:text="@string/label_shoulder"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/label_shoulders"
+        android:layout_below="@+id/label_biceps"
+        android:text="@string/label_lunge"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_abs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/label_shoulders"
+        android:layout_below="@+id/label_shoulders"
+        android:text="@string/label_ab"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_coolDown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/label_abs"
+        android:text="@string/label_coolDown"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/label_squat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/label_coolDown"
+        android:layout_below="@+id/label_warmUp"
+        android:text="@string/label_squat"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Spinner01"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/label_warmUp"
+        android:entries="@array/weights_array_kg" />
+
+    <Spinner
+        android:id="@+id/Spinner01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_squat"
+        android:layout_alignLeft="@+id/spinner1"
+        android:layout_alignTop="@+id/label_squat"
+        android:entries="@array/weights_array_kg" />
+
+    <Spinner
+        android:id="@+id/Spinner02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_back"
+        android:layout_alignLeft="@+id/Spinner01"
+        android:layout_alignTop="@+id/label_back"
+        android:entries="@array/weights_array_kg" />
+
+    <Spinner
+        android:id="@+id/Spinner03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/label_triceps"
+        android:layout_alignLeft="@+id/Spinner02"
+        android:layout_alignTop="@+id/label_triceps"
+        android:entries="@array/weights_array_kg" />
+
+</RelativeLayout>
